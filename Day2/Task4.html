@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {border:1px solid black}
+        body{
+         display:flex;
+          justify-content:center;
+          align-items:center;
+         height:100vh;
+         flex-direction:column;
+         
+        }
+
+    </style>
+    
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <div>
+    <form >
+        <fieldset style="background-color: rgb(194, 207, 209)">
+            <legend>Personal details</legend>
+    <label>First Name </label>
+    <input type="text" id="first name"><br><br>
+    <label>Last Name </label>
+    <input type="text" id="last name"><br><br>
+    <label>Email address </label>
+    <input type="email" id="emailaddress"><br><br>
+    <label>Gender  </label>
+   <input type="radio" name="gender" value="Male">Male
+   <input type="radio" name="gender" value="Fimale">Fimale
+   
+</fieldset>
+<br>
+<fieldset style="background-color: rgb(194, 207, 209)">
+    <legend>City</legend>
+    <label>City</label>
+    <select id="city"name="city-select">
+        <option>Amman</option>
+        <option>Irbid</option>
+        <option>Jarash</option>
+        <option>Ajloun</option>
+    </select>
+</fieldset>
+<br><br>
+<input type="submit" value="Subscribe" >
+
+
+    </form>
+
+</div>
+
+</body>
+</html>
