@@ -1,0 +1,453 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    background-color: #536e65;
+}
+.logo{
+    
+    
+    margin-left: 20px;
+    padding:2px;
+    margin-top: 40pxpx;
+  
+}
+.home-link{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.section1{
+
+    display:flex;
+    flex-wrap: wrap;
+    /* width:1400; */
+    width:100%;
+    height: 629.07px;
+    background-color: #35736E;
+    position: relative;
+    
+}
+/* .header{
+position: relative;
+display: flex;
+justify-content: space-between; 
+align-items: center; 
+} */
+.headerLogo{
+    color: #FFD748;
+    position: absolute;
+    width:60px;
+    height: 77px;
+    top:8.4px;
+    left:32.67px;
+    font: size 51.33px; 
+    line-height: 76.75px;
+}
+ /* .headerNavigation{
+  position: absolute;
+    top:0px;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    display: flex;
+   
+    
+    
+    top:26.13px;
+    left:706.53px;
+    margin-left: 20px;
+
+}  */
+.headerNavigation {
+    position: absolute;
+    top:26.13px;
+    left:804.07px;
+    display: flex; 
+    gap: 30px; 
+  }
+  
+  .headerNavigation p {
+    font-size: 15px;
+    color: #ffffff;
+    display: inline-block;
+  }
+
+.headerText{
+    width:505.87 ;
+    height: 140px;
+    top:221.2px;
+    left: 92.4px;
+    position: absolute;
+    color:white;
+    font-size: 51.33px;
+    font-family: "DM Serif Display", serif;
+    
+}
+.headerButton{
+    display: flex;
+    position: absolute;
+    top:429.33px;
+    left: 104.53px; 
+    
+}
+.headerButtonL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:149.33px;
+    height: 46.67px;
+     
+    border: 1px solid #FFD748;
+    border-radius: 28px;
+    background-color: #FFD748;
+    text-align: center;
+    margin:10px;
+}
+.headerButtonR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:149.33px;
+    height: 46.67px;
+    
+    left:276.27px;
+    border: 1px solid white;
+    border-radius: 28px;
+    text-align: center;
+    margin:10px;
+}
+.Imgp{
+    position: absolute;
+    width:756px;
+    height: 542.53px;
+    top:126.93px;
+    left:561.87px;
+}
+.BackImg{
+    position: absolute;
+    width:242.67px;
+    height:164.27px ;
+    top:197.87px;
+    left:1088.27px;
+}
+
+.section2{
+    display: flex;
+    position: relative;
+   
+}
+.leftText{
+    position: absolute;
+    margin-top:75.52px;
+    width: 414.4px;
+    left:92.4px;
+   
+    
+}
+.section2ButtonR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:149.33px;
+    height: 46.67px;
+    
+    /* left:92.4px; */
+    border: 1px solid white;
+    border-radius: 28px;
+    text-align: center;
+    
+    background-color: #35736E;
+    color:#ffffff
+}
+.product{
+    display: flex;
+position: absolute;
+left:485.27px;
+
+margin: 75px;
+margin-top: 83.43px;
+}
+.Procard{
+    display: flex;
+      flex-direction: column;
+    margin: 15px;
+        text-align: center;
+        justify-content: center;
+        background-color: #35736E1A;
+     position: relative;
+     width: 249.27px;
+height: 269.6px;
+border-radius:18.67px;
+}
+.cardimg{
+    position: relative;
+    left: 34px;
+
+    top: -64px;
+     width:176.4px;
+     height: 187.82px;
+
+    
+}
+.BackImg2{
+    position: absolute;
+    justify-content: center;
+    width:242.67px;
+    height:154.56px ;
+    top:563.8px;
+    left:700px;
+}
+
+.section3{
+    display: flex;
+    position: relative;
+   
+}
+.rightpart{
+    position: absolute;
+    margin-top:563.8px;
+    width:212.8px;
+    left:92.4px;
+}
+.IconsT{
+    display: flex;
+    /* margin:; */
+    width: 550.2px;
+    /* gap: 50px; */
+ 
+
+}
+.IconsB{
+    width: 500.2px;
+    display: flex;
+    margin: auto;
+    /* gap: 30px; */
+}
+
+.S2IMG{
+    position: absolute;
+    width: 480.5px;
+    height: 552.47px;
+    top:605.05px;
+    left:777.47px;
+    border-radius: 9.33px;
+}
+.section4{
+    display: flex;
+    position: relative;
+     
+}
+.RightTextS4{
+    position: absolute;
+    top:1444.62px;
+    left:880.13px;
+    width: 414.4px;
+}
+
+.LeftList{
+    display: flex;
+    margin:auto;
+    
+    width: 333.2px;
+    gap: 60px;
+   font-size: 13.07px;
+   color:#6A6A6A;
+}
+.RightList{
+    display: flex;
+    margin:auto;
+    width: 442.2px;
+
+    
+    font-size: 13.07px;
+    color:#6A6A6A;
+}
+ .sec4Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:149.33px;
+    height: 46.67px;
+    
+    /* left:92.4px; */
+    border: 1px solid white;
+    border-radius: 28px;
+    text-align: center;
+    
+    background-color: #35736E;
+    color:#ffffff;
+} 
+.LeftImages{
+    display: flex;
+    position: absolute;
+    margin-top: 90px;
+
+}
+#LeftImages1{
+    position: absolute;
+ width:393.87px;
+ height: 451.39px;
+ left:194.13px;
+ top:1290.94px;
+border-radius:9.33px ;
+}
+#LeftImages2{
+    position: absolute;
+ width:174.53px;
+ height:164.22px ;
+ top:1290.06px;
+ left: 596.4px;
+ border-radius:9.33px ;
+}
+#LeftImages3{
+    position: absolute;
+    width:271.6px;
+    height:306.49px ;
+    top:1470.09px;
+    left: 547.87px;
+    border-radius:9.33px ;
+}
+#BackImgI{
+    position: absolute;
+    width:242.67px;
+    height:154.56px;
+    top:1223.32px;
+    left:88.67px;
+    
+}
+
+.Card5{
+   width: 319.2px;
+   height: 96.6px;
+   margin-top: 1995.25px;
+   
+}
+.imgcon{
+width:84.93px;
+height: 109.77px;
+top:1974.17px;
+left:167.07px;
+
+}
+.section6{
+    
+    
+    text-align: center;
+   /* margin-top: 100px;  */
+    /* top:2199.87px;
+    width: 1008.93px;
+    height: 193.2px; */
+  
+}
+.TextS6{
+    display: flex;
+    margin-top: 50px;
+    /* flex-wrap: wrap; */
+     flex-direction: row; 
+
+    justify-content:space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.container5{
+   
+    margin-left: 70px;
+    display: flex row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.prod5{
+    margin-left: 30px;
+    float:left;
+    width:30%;
+}
+
+.Photo{
+    width:100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+   
+}
+.Circle{
+width:100px;
+height: 100px;
+background-color: white;
+border-radius: 50%;
+box-shadow: 3px 3px 3px #0DA8FC;
+
+}
+.section7{
+    margin-top: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.Blog{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+     /* text-align: center; */
+     align-items: center;
+     margin: 30px;
+     padding: 10px;
+}
+.Bcard{
+    width:336px;
+    height: 321.07px;
+    background-color: #EFF2F1;
+    margin: 10px;
+    border-radius: 10px;
+    /* padding-left:10px; */
+}
+.BlogImg{
+    width:336px;
+    height: 232.4px;
+    padding:10px;
+    
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.iconContainer{
+    border-radius: 50%;
+    width:38.27px;
+    height: 38.27px;
+    background-color: #D9D9D9;
+    margin-left: 10px;
+    text-align: center;
+}
+.Policy{
+    display: flex;
+    margin-right: 200px;
+    
+    justify-content: right;
+}
+.logo2{
+    width:100px;
+    padding:2px;
+  
+}
+.FooterImg{
+    position: relative;
+    left:1300px;
+    width:336px;
+    height: 300.4px;
+    bottom:115px;
+}
+.Subscribe{
+    margin-left:-270px;
+    display: flex;
+  
+}
+.SubText{
+    margin-right: 800px;
+    margin-top: 100px;
+}
